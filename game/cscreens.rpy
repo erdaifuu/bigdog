@@ -7,7 +7,7 @@ define locations = [
     "name": "school",
     "unlocked": "school_unlocked",
     "idle_image": "skool.png",
-    "hover_image": "skoo_hover.png",
+    "hover_image": "skool_hover.png",
     "scene": "school",
     "xalign": 0.4,
     "yalign": 0.2
