@@ -3,8 +3,9 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define e = Character("bigdog")
-define ee = Character("???")
+# moved to variables.rpy
+# define e = Character("bigdog")
+# define ee = Character("???")
 
 # The game starts here.
 
@@ -37,6 +38,8 @@ label start:
     e "find my pages"
     e "find my pages"
     e "find my pages"
+
+    call map_screen
 
     # Prologue
     call prologue
