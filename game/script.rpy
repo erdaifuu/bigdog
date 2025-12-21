@@ -4,7 +4,7 @@
 # name of the character.
 
 define e = Character("bigdog")
-
+define ee = Character("???")
 
 # The game starts here.
 
@@ -30,8 +30,16 @@ label start:
 
     e "i am the big dog who grants wishes"
 
+    play music "panic.ogg"
+
+    e "find my pages"
+    e "find my pages"
+    e "find my pages"
+    e "find my pages"
     e "find my pages"
 
-    # This ends the game.
+    # Prologue
+    call prologue
 
+    # This ends the game.
     return
