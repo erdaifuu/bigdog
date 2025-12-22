@@ -10,7 +10,7 @@ define locations = [
     "hover_image": "skool_hover.png",
     "scene": "school",
     "xalign": 0.4,
-    "yalign": 0.2
+    "yalign": 0.55
   }
 ]
 
