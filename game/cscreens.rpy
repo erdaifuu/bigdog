@@ -27,22 +27,27 @@ screen map_screen:
         hover location["hover_image"]
         xalign location["xalign"]
         yalign location["yalign"]
-        action [Hide("map_screen"), Jump(location["scene"])]
+        action [Hide("map_screen"), Return(location["scene"])]
 
+  # remove later
   frame:
     xalign 1.0
     yalign 0.0
     textbutton "Return" xalign 0.5 yalign 0.5 action [Hide("map_screen")]
 
 label map:
-  $school_unlocked = True
-  "Unlock school"
+  # unlock the school
+  $ school_unlocked = True
 
-  show screen map_screen
+  # we choose a destination to go, doesn't actually call the destination here
+  # $ means this is a single line of python code
+  window hide
+  $ dest = renpy.call_screen("map_screen")
+  window show
 
-  return
+  return dest
 
 ## Locations
 label school:
   "You r at da school!"
-  return
+  return "school"
