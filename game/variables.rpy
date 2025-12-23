@@ -11,6 +11,7 @@ define you = Character("Sakura")
 define mom = Character("Mom")
 define dad = Character("Dad")
 define dad_stick = Character("Dad with a stick")
+define sister = Character("Sister")
 
 # Others
 define bully1 = Character("Buff Jock")
