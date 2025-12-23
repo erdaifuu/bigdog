@@ -1,10 +1,11 @@
-﻿# The script of the game goes in this file.
+# The script of the game goes in this file.
 
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define e = Character("bigdog")
-define ee = Character("???")
+# moved to variables.rpy
+# define e = Character("bigdog")
+# define ee = Character("???")
 
 # The game starts here.
 

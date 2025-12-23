@@ -4,6 +4,7 @@ label prologue :
 
     scene bg levant
 
+    call map
 
 
     "long ago ... in a world before japanimation and other such problematic media..."
