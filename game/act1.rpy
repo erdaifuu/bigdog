@@ -1,4 +1,5 @@
 label day1:
+    play music "vnshit.ogg"
     # scene: outside the school
     "It's raining..."
     "Guess I should go get my umbrella."
@@ -27,7 +28,7 @@ label day1:
     "I heard loud, unmistakable footsteps coming towards me. It's my dad with a stick."
     show dad_stick
     dad_stick "I'm gonna hit you with my stick!"
-    "He beats me viviously"
+    "He beats me viciously."
     mom "Annnd your dinner is going in the trash again. Jesus you're so fat. I'm putting you on a diet."
     "I watch her throw the heaping plate of spaghetti into the trash."
     "I run out of the room crying, as usual!"
@@ -43,6 +44,8 @@ label day1:
     "I cry myself to sleep."
     # Fade to black
 
+    return 
+
 label day2:
     # Chicken does their good morning thing 
     scene bg placeholder
@@ -56,18 +59,28 @@ label day2:
     # Girl protagonist shows up in the mirror.
     mystery "That's... ME?!?!?!"
 
+    # Scene change to downstairs
     "I race downstairs."
 
     mom "Oh Sakura honey boo! Good morning my beautiful foid daughter!"
-    "{i}Your mom kisses you on your forehead.{/i}"
-    mom "Here's extra breakfast for you! A growing girl needs her food!"
+    "You watch mom kiss you on the forehead. She then leans you and squeeze both of your boobs with her hands."
+
+    mom "Hasn't grown at much I see. Here's extra breakfast for you. A growing girl needs her food!"
     "She serves up a heaping plate of omurice and ramen."
     you "Am... I dreaming?"
-    
 
     show dad
-    dad "has anyone seen my stick? oh hello sakura my beautiful foid daughter :)"
+    dad "Has anyone seen my stick? oh hello sakura my beautiful foid daughter :)"
+    mom "Your sister still hasn't came downstairs, can you go wake her up?"
 
-    # blah blaah b
+    you "Okay now it's kinda creepy. Sister?? I don't recall ever having a sister?"
+    "I see a girl who looks like if mom and dad had a child walk downstairs, yawning and rubbing her eyes."
+    sister "Ohayo onee-chan!"
+    you "Yeah... I think I'm going to head to school now."
+    
     show dad_stick
     dad_stick "i found my stick. have a wonderful day at school !"
+
+    # Scene changes to school
+
+    return
