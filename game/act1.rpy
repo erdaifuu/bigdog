@@ -22,6 +22,8 @@ label day1:
     "When I finally get home, I was completely wet from head to toe. Because I didn't have my umbrella."
 
     # Scene changes to inside house
+    scene bg kitchen
+
     mom "Oh look who decided to come home completely wet from head to toe!"
 
     "I heard loud, unmistakable footsteps coming towards me. It's my dad with a stick."
