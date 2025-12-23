@@ -1,5 +1,5 @@
 # Recurring Names
-define bg = Character("bigdog")
+define bigdog = Character("bigdog")
 define mystery = Character("???")
 # define narrator = Character(None, what_italic=True)
 
@@ -19,3 +19,7 @@ define bully2 = Character("Somewhat Buff Jock")
 define bully3 = Character("Luff Jock")
 define cm1 = Character("Classmate 1")
 define cm2 = Character("Classmate 2")
+
+# Transitions
+define bigdogintimidation = ComposeTransition(hpunch, after=zoomin)
+define bigdogdissapearance = ComposeTransition(squares, before=blinds, after=irisin)

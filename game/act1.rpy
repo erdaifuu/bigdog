@@ -1,5 +1,4 @@
 label day1:
-    play music "vnshit.ogg"
     # scene: outside the school
     "It's raining..."
     "Guess I should go get my umbrella."
@@ -17,20 +16,54 @@ label day1:
     cm1 "Wow that guy is such a fucking loser. Lol."
     cm2 "Girl ain't that right!"
 
-    # DOG HERE
+    "I hold back tears and begin to walk home in the rain."
+    
+    # scene changes to the road / outside forest 
+    # serene / mystical / rain music begins playing 
+    "Without even thinking, I seem to have wandered into a forest."
+    name "Huh, I don't recall there ever being a forest here."
+
+    window hide
+    play sound leavescrunching
+    with hpunch
+    pause
+    play sound boom
+    show bigdog with bigdogintimidation
+    pause
+    window show
+    
+    name "N-nani desu ka?"
+    bigdog "Fate has brought u here young jit. I shall grant you the pleasure of one wish."
+
+    menu wishes:
+        "What do you wish for lil jit?"
+
+        "I wish for a million wishes!":
+            jump a_milli_ending
+
+        "I wish for people to like me!":
+            bigdog "Hohoho... wish granted."
+
+        "I wish for another wish!":
+            jump wishes
+    
+    bigdog "It's time to say goodbye now. Goodbye."
+    hide bigdog with bigdogdissapearance
+    pause
+
+    name "I really need to sniff less glue."
 
     # Scene changes to outside house
     "When I finally get home, I was completely wet from head to toe. Because I didn't have my umbrella."
 
     # Scene changes to inside house
-    scene bg kitchen
-
     mom "Oh look who decided to come home completely wet from head to toe!"
 
     "I heard loud, unmistakable footsteps coming towards me. It's my dad with a stick."
     show dad_stick
     dad_stick "I'm gonna hit you with my stick!"
     "He beats me viciously."
+    hide dad_stick
     mom "Annnd your dinner is going in the trash again. Jesus you're so fat. I'm putting you on a diet."
     "I watch her throw the heaping plate of spaghetti into the trash."
     "I run out of the room crying, as usual!"
@@ -74,15 +107,24 @@ label day2:
     show dad
     dad "Has anyone seen my stick? oh hello sakura my beautiful foid daughter :)"
     mom "Your sister still hasn't came downstairs, can you go wake her up?"
+    hide dad
 
     you "Okay now it's kinda creepy. Sister?? I don't recall ever having a sister?"
-    "I see a girl who looks like if mom and dad had a child walk downstairs, yawning and rubbing her eyes."
+    "I see a girl who looks slightly younger than I am walk downstairs, clearly excited to see me."
     sister "Ohayo onee-chan!"
     you "Yeah... I think I'm going to head to school now."
     
     show dad_stick
-    dad_stick "i found my stick. have a wonderful day at school !"
+    dad_stick "I found my stick. have a wonderful day at school !"
+    hide dad_stick with fade
 
     # Scene changes to school
 
+    return
+
+label a_milli_ending:
+    bigdog "Nahh jit u greedy af"
+    bigdog "Im boutta eat you!!!"
+    name "AHHHHH!!!"
+    $ renpy.full_restart()
     return
