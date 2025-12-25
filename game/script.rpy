@@ -46,8 +46,8 @@ label start:
     # "will {w} go {p} to da [dest]!"
     # call expression dest
 
-    call day1
-    call day2
+    call day1 from _call_day1
+    call day2 from _call_day2
 
     # This ends the game.
     return

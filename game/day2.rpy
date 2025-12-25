@@ -28,15 +28,15 @@ label day2:
 
     "I see a girl who looks slightly younger than I am walk downstairs, clearly excited to see me."
     sister "Ohayo onee-chan!"
-    menu:        
+    menu:
         "Sister? I don't recall ever having a sister?":
-            sister "Eeeeeehhhh?! Aw :c"
+            sister "Eeeeeehhhh?! You don't remember me desu? Aw :c"
             you "Yeah... I think I'm going to head to school now."
 
         "SISTER?? HOLY WWWWWWW IMOUTOO!!!!":
-            $ sister_lover = True 
-            sister "Eeeeeehhhh?!"
-            mom "Okay girl chill out. {w} I think you should leave for school now."
+            $ sister_lover += 1
+            sister "Eeeeeehhhh?! Onee-chan hentaiii!"
+            mom "Okay girl chill tf out. {w}I think you should leave for school now."
 
         "{i}Epically ignores her and begins eating your omurice and ramen{/i}":
             $ big_and_fat += 1
@@ -59,7 +59,7 @@ label day2:
     "I hurriedly pass them. This is creepy, do they have false memories about what happened before?"
 
     st1 "Wow she's such a stacy! Who's that?"
-    st2 "Don't you know? That's Sakura, the Strongest Foid of Winfrey High!"
+    st2 "Don't you know? That's Sakura, 「The Strongest Foid of Winfrey High」!"
 
     window hide
     with vpunch 

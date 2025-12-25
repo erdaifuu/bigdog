@@ -35,6 +35,8 @@ define bigdogintimidation = ComposeTransition(hpunch, after=dissolve)
 define bigdogdissapearance = ComposeTransition(squares, before=blinds, after=irisin)
 
 # Paths to take in the game 
-default sister_lover = False 
-# if this gets to like 5 we get the "big and fat" ending
+default sister_lover = 0 
 default big_and_fat = 0
+
+# Persistent Variables (new game +, secret endings)
+default persistent.knows_hiphop = False
