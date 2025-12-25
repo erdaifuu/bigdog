@@ -31,12 +31,12 @@ label day2:
     sister "Ohayo onee-chan!"
     you "Yeah... I think I'm going to head to school now."
     
-    show dad_stick
+    show dad stick
     dad_stick "I found my stick. have a wonderful day at school !"
-    hide dad_stick with fade
+    hide dad stick with fade
 
     # Scene changes to school
-
+    scene bg outsideschool
     "I speedily speed to school, trying to avoid anyone I know, but it seems that luck wasn't on my side."
     you "Oh shit, it's the jocks again."
     bully1 "is that... Sakura?"
@@ -50,7 +50,8 @@ label day2:
     st2 "Don't you know? That's Sakura, the Strongest Foid of Winfrey High!"
 
     window hide
-    play audio school_bell with vpunch
+    with vpunch 
+    play audio school_bell 
     pause 
     "You hear the bell ring. It's time to go to class."
 

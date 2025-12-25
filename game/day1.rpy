@@ -32,10 +32,14 @@ label day1:
     with hpunch
     pause
     play sound boom
-    show bigdog neutral with bigdogintimidation
+    show bigdog neutral at left with bigdogintimidation
     pause
     
     name "N-nani desu ka?"
+    bigdog "i am big dog. i have magic dayo. here i will prove my power."
+    show bigdogmirror at right
+    bigdog "lol i just cloned myself"
+    hide bigdogmirror
     bigdog "Fate has brought u here young jit. I shall grant you the pleasure of one wish."
 
     menu wishes:
