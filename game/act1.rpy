@@ -30,7 +30,6 @@ label day1:
     play sound boom
     show bigdog with bigdogintimidation
     pause
-    window show
     
     name "N-nani desu ka?"
     bigdog "Fate has brought u here young jit. I shall grant you the pleasure of one wish."
@@ -48,6 +47,8 @@ label day1:
             jump wishes
     
     bigdog "It's time to say goodbye now. Goodbye."
+    window hide
+    play sound byebye
     hide bigdog with bigdogdissapearance
     pause
 

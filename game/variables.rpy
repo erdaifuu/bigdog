@@ -1,5 +1,5 @@
 # Recurring Names
-define bigdog = Character("bigdog")
+define bigdog = Character("Big Dog")
 define mystery = Character("???")
 # define narrator = Character(None, what_italic=True)
 
