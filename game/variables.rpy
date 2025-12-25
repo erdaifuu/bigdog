@@ -33,3 +33,8 @@ define cm2 = Character("Classmate 2")
 # Transitions
 define bigdogintimidation = ComposeTransition(hpunch, after=zoomin)
 define bigdogdissapearance = ComposeTransition(squares, before=blinds, after=irisin)
+
+# Paths to take in the game 
+default sister_lover = False 
+# if this gets to like 5 we get the "big and fat" ending
+default big_and_fat = 0

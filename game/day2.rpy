@@ -26,10 +26,22 @@ label day2:
     mom "Your sister still hasn't came downstairs, can you go wake her up?"
     hide dad default
 
-    you "Sister? I don't recall ever having a sister?"
     "I see a girl who looks slightly younger than I am walk downstairs, clearly excited to see me."
     sister "Ohayo onee-chan!"
-    you "Yeah... I think I'm going to head to school now."
+    menu:        
+        "Sister? I don't recall ever having a sister?":
+            sister "Eeeeeehhhh?! Aw :c"
+            you "Yeah... I think I'm going to head to school now."
+
+        "SISTER?? HOLY WWWWWWW IMOUTOO!!!!":
+            $ sister_lover = True 
+            sister "Eeeeeehhhh?!"
+            mom "Okay girl chill out. {w} I think you should leave for school now."
+
+        "{i}Epically ignores her and begins eating your omurice and ramen{/i}":
+            $ big_and_fat += 1
+            sister "Eeeeeehhhh?! Onee-chan is ignoring me?! :c"
+            you "{i}Gulps up the rest of the food{/i} Oh man that was good. {w}Oh that is yummy. {w}Oh fuck that was so good. {w}I think I'm going to head to school now."
     
     show dad stick
     dad_stick "I found my stick. have a wonderful day at school !"
@@ -40,8 +52,8 @@ label day2:
     "I speedily speed to school, trying to avoid anyone I know, but it seems that luck wasn't on my side."
     you "Oh shit, it's the jocks again."
     bully1 "is that... Sakura?"
-    bully2 "Sakura! It's so nice to see you!"
-    bully1 "Sorry about what happened to your umbrella yesterday Sakura. Here, I bought you a new one!"
+    bully2 "Sakura-chan! It's so nice to see you!"
+    bully1 "I heard you lost your umbrewwa yesterday. Here, I bought you a new one!"
     bully3 "Wanna join my crew"
 
     "I hurriedly pass them. This is creepy, do they have false memories about what happened before?"
@@ -65,12 +77,12 @@ label day2:
 
     "..."
     with hpunch
-    mystery "Huff.. huff... sorry I'm late teacher-san! {w} Where... where's Sakura?"
+    mystery "Huff.. huff... sorry I'm late teacher-san! {w}Where... where's Sakura?"
     teacher "Girl sit tf down first! U always thinking bout sum Sakura."
     teacher "She just left for the nurse with the fat boobs. Hope she's feeling okay!"
     mystery "Oh... I guess I'll just have to catch her later then..."
 
     # Scene changes to nurse
-
+    you ""
 
     return
