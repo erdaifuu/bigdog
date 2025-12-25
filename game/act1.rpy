@@ -1,5 +1,6 @@
 label day1:
     # scene: outside the school
+
     "It's raining..."
     "Guess I should go get my umbrella."
 
@@ -19,7 +20,9 @@ label day1:
     "I hold back tears and begin to walk home in the rain."
     
     # scene changes to the road / outside forest 
-    # serene / mystical / rain music begins playing 
+    # serene / mystical / rain music begins playing
+
+    scene bg forest with fade
     "Without even thinking, I seem to have wandered into a forest."
     name "Huh, I don't recall there ever being a forest here."
 
@@ -55,9 +58,11 @@ label day1:
     name "I really need to sniff less glue."
 
     # Scene changes to outside house
+    scene bg mchouse with fade
     "When I finally get home, I was completely wet from head to toe. Because I didn't have my umbrella."
 
     # Scene changes to inside house
+    scene bg kitchen with fade
     mom "Oh look who decided to come home completely wet from head to toe!"
 
     "I heard loud, unmistakable footsteps coming towards me. It's my dad with a stick."
