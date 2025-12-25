@@ -37,9 +37,13 @@ label day1:
     
     name "N-nani desu ka?"
     bigdog "i am big dog. i have magic dayo. here i will prove my power."
-    show bigdogmirror at right
+    show bigdogmirror at right with dissolve
     bigdog "lol i just cloned myself"
-    hide bigdogmirror
+    hide bigdogmirror with dissolve
+    show bigdog happy
+    bigdog "haha wasnt that cool"
+    bigdog "anyway"
+    show bigdog neutral with ease
     bigdog "Fate has brought u here young jit. I shall grant you the pleasure of one wish."
 
     menu wishes:
@@ -103,5 +107,9 @@ label a_milli_ending:
     bigdog "Nahh jit u greedy af"
     bigdog "Im boutta eat you!!!"
     name "AHHHHH!!!"
+    hide bigdog neutral
+    show bg black
+    "You have perished. . ."
+    call bigdogwisdom1
     $ renpy.full_restart()
     return

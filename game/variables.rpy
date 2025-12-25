@@ -38,3 +38,5 @@ define bigdogdissapearance = ComposeTransition(squares, before=blinds, after=iri
 default sister_lover = False 
 # if this gets to like 5 we get the "big and fat" ending
 default big_and_fat = 0
+define bigdogintimidation = ComposeTransition(hpunch, after=dissolve)
+define bigdogdissapearance = ComposeTransition(squares, before=blinds, after=irisin)
