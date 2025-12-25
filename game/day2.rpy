@@ -40,8 +40,8 @@ label day2:
     "I speedily speed to school, trying to avoid anyone I know, but it seems that luck wasn't on my side."
     you "Oh shit, it's the jocks again."
     bully1 "is that... Sakura?"
-    bully2 "Sakura! It's so nice to see you!"
-    bully1 "Sorry about what happened to your umbrella yesterday Sakura. Here, I bought you a new one!"
+    bully2 "Sakura-chan! It's so nice to see you!"
+    bully1 "I heard you lost your umbrewwa yesterday. Here, I bought you a new one!"
     bully3 "Wanna join my crew"
 
     "I hurriedly pass them. This is creepy, do they have false memories about what happened before?"
@@ -64,7 +64,7 @@ label day2:
 
     "..."
     with hpunch
-    mystery "Huff.. huff... sorry I'm late teacher-san! {w} Where... where's Sakura?"
+    mystery "Huff.. huff... sorry I'm late teacher-san! {w}Where... where's Sakura?"
     teacher "Girl sit tf down first! U always thinking bout sum Sakura."
     teacher "She just left for the nurse with the fat boobs. Hope she's feeling okay!"
     mystery "Oh... I guess I'll just have to catch her later then..."
