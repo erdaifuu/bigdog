@@ -1,4 +1,33 @@
 label day1:
+    # scene: bedroom
+   
+    scene bg bedroombefore with fade
+    "I wake up"
+
+    # scene: kitchen
+
+    scene bg kitchen with fade
+    "I see scattered plates on the kitchen table. {w} Nary a scrap of food left though.
+    {w} Once again my family has eaten without me . . ."
+    "I grab a singular slice of bread and stumble out the door."
+
+    # scene: street
+
+    scene bg housestreet1 with fade
+    "The street is quiet. {w} I start making my way towards the school. {w}
+    Alone, as usual"
+
+    # scene: outside the school
+
+    scene bg outsideschool with fade
+    "I keep my head down, avoiding eye contact as I enter the gate."
+    "I speak to no one, {w} and no one speaks to me."
+
+    # scene: inside the classroom
+
+    scene bg classroom with fade
+    "Classes are boring. {w} Time passes slowly."
+    
     # scene: outside the school
 
     scene bg outsideschool with fade
