@@ -26,7 +26,7 @@ label day2:
     mom "Your sister still hasn't came downstairs, can you go wake her up?"
     hide dad default
 
-    you "Okay now it's kinda creepy. Sister?? I don't recall ever having a sister?"
+    you "Sister? I don't recall ever having a sister?"
     "I see a girl who looks slightly younger than I am walk downstairs, clearly excited to see me."
     sister "Ohayo onee-chan!"
     you "Yeah... I think I'm going to head to school now."
@@ -36,5 +36,40 @@ label day2:
     hide dad_stick with fade
 
     # Scene changes to school
+
+    "I speedily speed to school, trying to avoid anyone I know, but it seems that luck wasn't on my side."
+    you "Oh shit, it's the jocks again."
+    bully1 "is that... Sakura?"
+    bully2 "Sakura! It's so nice to see you!"
+    bully1 "Sorry about what happened to your umbrella yesterday Sakura. Here, I bought you a new one!"
+    bully3 "Wanna join my crew"
+
+    "I hurriedly pass them. This is creepy, do they have false memories about what happened before?"
+
+    st1 "Wow she's such a stacy! Who's that?"
+    st2 "Don't you know? That's Sakura, the Strongest Foid of Winfrey High!"
+
+    window hide
+    play audio school_bell with vpunch
+    pause 
+    "You hear the bell ring. It's time to go to class."
+
+    # Scene changes to class
+    teacher "Okay class. Now flip open your textbook to page 1!"
+    
+    cm1 "SAKURAAS HERE!!!"
+    cm2 "OMG Sakura!"
+    you "...I think I'm going to fricking barf. This is so uncomfy."
+    you "Teach... I need to take a breather. I'm going to find the nurse with the fat boobs."
+
+    "..."
+    with hpunch
+    mystery "Huff.. huff... sorry I'm late teacher-san! {w} Where... where's Sakura?"
+    teacher "Girl sit tf down first! U always thinking bout sum Sakura."
+    teacher "She just left for the nurse with the fat boobs. Hope she's feeling okay!"
+    mystery "Oh... I guess I'll just have to catch her later then..."
+
+    # Scene changes to nurse
+
 
     return

@@ -57,7 +57,7 @@ label day1:
     hide bigdog with bigdogdissapearance
     pause
 
-    name "I really need to sniff less glue."
+    name "Okay. That just happened."
 
     # Scene changes to outside house
     scene bg mchouse with fade
@@ -80,8 +80,8 @@ label day1:
     # Scene changes to your room 
     scene bg bedroombefore with fade
     # Scene changes to in front of your mirror, your figure shows inside
-    name "I should have known that stupid big ass dog wasn't real."
-    name "I'm still miserable as per usual. Not to mention my moidly features and my chud form."
+    name "That stupid big ass dog did nothing to me. I'm still miserable as per usual."
+    name "Fuck my moidly features and my chud form."
 
     # Scene changes back to my room
 
