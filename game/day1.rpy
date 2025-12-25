@@ -24,8 +24,13 @@ label day1:
     # serene / mystical / rain music begins playing
 
     scene bg forest with fade
+    play music forestsong
     "Without even thinking, I seem to have wandered into a forest."
     name "Huh, I don't recall there ever being a forest here."
+    name "Well... I don't feel like going home just yet."
+    "I find myself in a trance."
+    "My legs move without any sort of effort on my part."
+    "Minutes pass,{w} then tens of minutes,{w} until eventually"
 
     window hide
     play sound leavescrunching
@@ -35,6 +40,8 @@ label day1:
     show bigdog neutral at left with bigdogintimidation
     pause
     
+    play music bigdogtheme
+
     name "N-nani desu ka?"
     bigdog "i am big dog. i have magic dayo. here i will prove my power."
     show bigdogmirror at right with dissolve
@@ -44,7 +51,7 @@ label day1:
     bigdog "haha wasnt that cool"
     bigdog "anyway"
     show bigdog neutral with ease
-    bigdog "Fate has brought u here young jit. I shall grant you the pleasure of one wish."
+    bigdog "Fate has brought u here young jit. {w} I shall grant you the pleasure of one wish."
 
     menu wishes:
         "What do you wish for lil jit?"
@@ -69,6 +76,7 @@ label day1:
 
     # Scene changes to outside house
     scene bg mchouse with fade
+    play music panic
     "When I finally get home, I was completely wet from head to toe. Because I didn't have my umbrella."
 
     # Scene changes to inside house
@@ -104,11 +112,14 @@ label day1:
 
 
 label a_milli_ending:
+    play music bigdogevil
+    show bigdog angry
     bigdog "Nahh jit u greedy af"
+    show bigdog blush
     bigdog "Im boutta eat you!!!"
     name "AHHHHH!!!"
     hide bigdog neutral
-    show bg black
+    show bg black with fade
     "You have perished. . ."
     call bigdogwisdom1
     $ renpy.full_restart()
