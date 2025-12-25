@@ -26,10 +26,22 @@ label day2:
     mom "Your sister still hasn't came downstairs, can you go wake her up?"
     hide dad default
 
-    you "Sister? I don't recall ever having a sister?"
     "I see a girl who looks slightly younger than I am walk downstairs, clearly excited to see me."
     sister "Ohayo onee-chan!"
-    you "Yeah... I think I'm going to head to school now."
+    menu:        
+        "Sister? I don't recall ever having a sister?":
+            sister "Eeeeeehhhh?! Aw :c"
+            you "Yeah... I think I'm going to head to school now."
+
+        "SISTER?? HOLY WWWWWWW IMOUTOO!!!!":
+            $ sister_lover = True 
+            sister "Eeeeeehhhh?!"
+            mom "Okay girl chill out. {w} I think you should leave for school now."
+
+        "{i}Epically ignores her and begins eating your omurice and ramen{/i}":
+            $ big_and_fat += 1
+            sister "Eeeeeehhhh?! Onee-chan is ignoring me?! :c"
+            you "{i}Gulps up the rest of the food{/i} Oh man that was good. {w}Oh that is yummy. {w}Oh fuck that was so good. {w}I think I'm going to head to school now."
     
     show dad_stick
     dad_stick "I found my stick. have a wonderful day at school !"
@@ -50,7 +62,8 @@ label day2:
     st2 "Don't you know? That's Sakura, the Strongest Foid of Winfrey High!"
 
     window hide
-    play audio school_bell with vpunch
+    with vpunch
+    play audio school_bell 
     pause 
     "You hear the bell ring. It's time to go to class."
 
@@ -70,6 +83,6 @@ label day2:
     mystery "Oh... I guess I'll just have to catch her later then..."
 
     # Scene changes to nurse
-
+    you ""
 
     return
