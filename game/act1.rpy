@@ -14,14 +14,12 @@ label day1:
     bully1 "Hahaha thanks bro! High five!"
     bully3 "Heh, a loser like you will never have any nakamas! Now get out!" 
 
-    cm1 "Wow that guy is such a fucking loser. Lol."
-    cm2 "Girl ain't that right!"
+    st1 "Wow that guy is such a fucking loser. Lol."
+    st2 "Girl ain't that right!"
 
     "I hold back tears and begin to walk home in the rain."
     
-    # scene changes to the road / outside forest 
     # serene / mystical / rain music begins playing
-
     scene bg forest with fade
     "Without even thinking, I seem to have wandered into a forest."
     name "Huh, I don't recall there ever being a forest here."
@@ -55,7 +53,7 @@ label day1:
     hide bigdog with bigdogdissapearance
     pause
 
-    name "I really need to sniff less glue."
+    name "Okay. That just happened."
 
     # Scene changes to outside house
     scene bg mchouse with fade
@@ -77,8 +75,8 @@ label day1:
 
     # Scene changes to your room 
     # Scene changes to in front of your mirror, your figure shows inside
-    name "I should have known that stupid big ass dog wasn't real."
-    name "I'm still miserable as per usual. Not to mention my moidly features and my chud form."
+    name "That stupid big ass dog did nothing to me. I'm still miserable as per usual."
+    name "Fuck my moidly features and my chud form."
 
     # Scene changes back to my room
     # Sad music plays 
@@ -88,7 +86,7 @@ label day1:
     return 
 
 label day2:
-    # Chicken does their good morning thing 
+    play audio rooster
     scene bg placeholder
     with fade
 
@@ -115,7 +113,7 @@ label day2:
     mom "Your sister still hasn't came downstairs, can you go wake her up?"
     hide dad
 
-    you "Okay now it's kinda creepy. Sister?? I don't recall ever having a sister?"
+    you "Sister? I don't recall ever having a sister?"
     "I see a girl who looks slightly younger than I am walk downstairs, clearly excited to see me."
     sister "Ohayo onee-chan!"
     you "Yeah... I think I'm going to head to school now."
@@ -125,6 +123,41 @@ label day2:
     hide dad_stick with fade
 
     # Scene changes to school
+
+    "I speedily speed to school, trying to avoid anyone I know, but it seems that luck wasn't on my side."
+    you "Oh shit, it's the jocks again."
+    bully1 "is that... Sakura?"
+    bully2 "Sakura! It's so nice to see you!"
+    bully1 "Sorry about what happened to your umbrella yesterday Sakura. Here, I bought you a new one!"
+    bully3 "Wanna join my crew"
+
+    "I hurriedly pass them. This is creepy, do they have false memories about what happened before?"
+
+    st1 "Wow she's such a stacy! Who's that?"
+    st2 "Don't you know? That's Sakura, the Strongest Foid of Winfrey High!"
+
+    window hide
+    play audio school_bell with vpunch
+    pause 
+    "You hear the bell ring. It's time to go to class."
+
+    # Scene changes to class
+    teacher "Okay class. Now flip open your textbook to page 1!"
+    
+    cm1 "SAKURAAS HERE!!!"
+    cm2 "OMG Sakura!"
+    you "...I think I'm going to fricking barf. This is so uncomfy."
+    you "Teach... I need to take a breather. I'm going to find the nurse with the fat boobs."
+
+    "..."
+    with hpunch
+    mystery "Huff.. huff... sorry I'm late teacher-san! {w} Where... where's Sakura?"
+    teacher "Girl sit tf down first! U always thinking bout sum Sakura."
+    teacher "She just left for the nurse with the fat boobs. Hope she's feeling okay!"
+    mystery "Oh... I guess I'll just have to catch her later then..."
+
+    # Scene changes to nurse
+
 
     return
 
