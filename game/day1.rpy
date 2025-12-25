@@ -44,8 +44,8 @@ label day1:
     bully1 "Hahaha thanks bro! High five!"
     bully3 "Heh, a loser like you will never have any nakamas! Now get out!" 
 
-    cm1 "Wow that guy is such a fucking loser. Lol."
-    cm2 "Girl ain't that right!"
+    st1 "Wow that guy is such a fucking loser. Lol."
+    st2 "Girl ain't that right!"
 
     "I hold back tears and begin to walk home in the rain."
     
@@ -79,6 +79,8 @@ label day1:
     show bigdog happy
     bigdog "haha wasnt that cool"
     bigdog "anyway"
+    # remove this later 
+    # like in day 10 or so we have some random scene that gives this so its newgame+
     $ persistent.knows_hiphop = True
     show bigdog neutral with ease
     bigdog "Fate has brought u here young jit. {w} I shall grant you the pleasure of one wish."
@@ -141,8 +143,6 @@ label day1:
     # Fade to black
 
     return 
-
-
 
 label a_million_ending:
     play music bigdogevil
