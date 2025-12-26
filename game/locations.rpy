@@ -51,3 +51,6 @@ label map:
 label school:
   "You r at da school!"
   return "school"
+
+# Location selector within school
+default nurse_unlocked = False

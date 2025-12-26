@@ -152,7 +152,8 @@ label a_million_ending:
     bigdog "Im boutta eat you!!!"
     name "AHHHHH!!!"
     hide bigdog neutral
-    show bg black with fade
+    show bg black 
+    with fade
     "You have perished. . ."
     call bigdogwisdom1
     $ renpy.full_restart()
@@ -186,7 +187,8 @@ label a_milli_ending:
     show bigdog angry with hpunch
     bigdog "I'm done with u man fr. I thought I met someone whos tapped in but u just a hater on god. I'm boutta EAT you"
     hide bigdog angry
-    show bg black with fade
+    show bg black 
+    with fade
     "You have perished. . ."
     call bigdogwisdom100
     $ renpy.full_restart()

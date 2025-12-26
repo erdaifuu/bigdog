@@ -34,9 +34,20 @@ define cm2 = Character("Classmate 2")
 define bigdogintimidation = ComposeTransition(hpunch, after=dissolve)
 define bigdogdissapearance = ComposeTransition(squares, before=blinds, after=irisin)
 
-# Paths to take in the game 
-default sister_lover = 0 
-default big_and_fat = 0
+# Romance paths
 
-# Persistent Variables (new game +, secret endings)
+# Alterate Romance
+default sister_lover = 0 
+default nurse_lover = 0
+
+# Alterate Paths to take in the game 
+default big_and_fat = 0
+default medically_inclined = 0
+default healthy = 5 # if 6, then you've drank lukewarm water
+default enlightened = 0
+
+# Items 
+default blackpill = 0
+
+# Persistent Variables (newgame+, secret endings)
 default persistent.knows_hiphop = False
