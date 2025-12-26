@@ -62,7 +62,7 @@ label day2:
     "I hurriedly pass them. This is creepy, do they have false memories about what happened before?"
 
     st1 "Wow she's such a stacy! Who's that?"
-    st2 "Don't you know? That's Sakura, 「The Strongest Foid of Winfrey High」!"
+    st2 "Don't you know? That's Sakura,[lb]The Strongest Foid of Winfrey High[rb]!"
 
     window hide
     with vpunch 
@@ -172,7 +172,7 @@ label day2:
             nurse "I'm back. Take this, it might come in handy."
             # Plays success sound
             $ blackpill += 1
-            "{i}「Black Pill」 get!{/i}"
+            "{i}[lb]Black Pill[rb]get!{/i}"
 
     scene bg mchouse with fade
     return
