@@ -2,7 +2,6 @@
 define bigdog = Character("Big Dog")
 define mystery = Character("???")
 # define narrator = Character(None, what_italic=True)
-
 define you = Character("Sakura")
 
 # Love interests
@@ -51,3 +50,7 @@ default blackpill = 0
 
 # Persistent Variables (newgame+, secret endings)
 default persistent.knows_hiphop = False
+
+# Conveinence 
+define lb = "{font=japanese.ttf}「{/font}"
+define rb = "{font=japanese.ttf}」{/font}"
