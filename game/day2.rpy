@@ -14,6 +14,7 @@ label day2:
     # Scene change to downstairs
     "I race downstairs."
     scene bg kitchen
+    show mom happy at left with dissolve
     mom "Oh Sakura honey boo! Good morning my beautiful foid daughter!"
     "You watch mom kiss you on the forehead. She then leans you and squeeze both of your boobs with her hands."
 
@@ -21,12 +22,14 @@ label day2:
     "She serves up a heaping plate of omurice and ramen."
     you "Am... I dreaming?"
 
-    show dad default
+    show dad default at right with dissolve
     dad "Has anyone seen my stick? oh hello sakura my beautiful foid daughter :)"
     mom "Your sister still hasn't came downstairs, can you go wake her up?"
     hide dad default
+    hide mom happy
 
     "I see a girl who looks slightly younger than I am walk downstairs, clearly excited to see me."
+    show sister w with dissolve
     sister "Ohayo onee-chan!"
     menu:
         "Sister? I don't recall ever having a sister?":

@@ -116,16 +116,18 @@ label day1:
 
     # Scene changes to inside house
     scene bg kitchen with fade
+    show mom angry at left
     mom "Oh look who decided to come home completely wet from head to toe!"
 
     "I heard loud, unmistakable footsteps coming towards me. It's my dad with a stick."
-    show dad stick
+    show dad stickangry at right
     dad_stick "I'm gonna hit you with my stick!"
     "He beats me viciously."
-    hide dad stick
+    hide dad stickangry
     mom "Annnd your dinner is going in the trash again. Jesus you're so fat. I'm putting you on a diet."
     "I watch her throw the heaping plate of spaghetti into the trash."
     "I run out of the room crying, as usual!"
+    hide mom angry
     "Yep, that's my life."
 
     # Scene changes to your room 
