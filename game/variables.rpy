@@ -32,6 +32,7 @@ define cm2 = Character("Classmate 2")
 # Transitions
 define bigdogintimidation = ComposeTransition(hpunch, after=dissolve)
 define bigdogdissapearance = ComposeTransition(squares, before=blinds, after=irisin)
+define runsfastatyou = ComposeTransition(hpuncy, zoomin)
 
 # Romance paths
 
@@ -42,7 +43,7 @@ default nurse_lover = 0
 # Alterate Paths to take in the game 
 default big_and_fat = 0
 default medically_inclined = 0
-default healthy = 5 # if 6, then you've drank lukewarm water
+# default healthy = 5 # if 6, then you've drank lukewarm water
 default enlightened = 0
 
 # Items 

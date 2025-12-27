@@ -150,6 +150,7 @@ label day2:
     pause
     you "Can you not do that?"
 
+    play music vnshit
     "Time pass. All the things Big Dog said is still running through my head."
     "Deep in thought, I unknowingly fell asleep on the bed."
     
@@ -157,22 +158,27 @@ label day2:
     with fade
     play sound school_end
     pause
-    you "Yawnn... Oh fuck, class is over already. I need to run home."
-    you "Before that, how is the nurse with the fat boobs still not back with my meds? Should I wait for her?"
+    you "Yawnn... Oh fuck, class is over already? I need to run home."
+    you "Damn girl the nurse still not back with my meds?"
     menu:
         "Go home right now":
             $ nurse_lover -= 1
             you "Fuck I can't do this. Today has been crazy for me. And I'm kinda hungry."
-            you "Sorry nurse but I'm gone!"
+            you "Bye felicia!"
         "Wait for the nurse":
             # $ nurse_lover += 1
-            $ healthy += 1
+            you "Whatever. I'll wait up."
             "..." 
             with fade
             nurse "I'm back. Take this, it might come in handy."
-            # Plays success sound
+            
+            play sound item_get
             $ blackpill += 1
             "{i}[lb]Black Pill[rb]get!{/i}"
 
     scene bg mchouse with fade
+    pause
+    "ONEEEE CHANNNNNN!!!!"
+    show sister w with runsfastatyou 
+
     return
