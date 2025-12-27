@@ -111,16 +111,16 @@ label day1:
 
     # Scene changes to outside house
     scene bg mchouse with fade
-    play music panic
+    play music sorrow
     "When I finally get home, I was completely wet from head to toe. Because I didn't have my umbrella."
 
     # Scene changes to inside house
     scene bg kitchen with fade
-    show mom angry at left
+    show mom angry at left with dissolve
     mom "Oh look who decided to come home completely wet from head to toe!"
 
     "I heard loud, unmistakable footsteps coming towards me. It's my dad with a stick."
-    show dad stickangry at right
+    show dad stickangry at right with dissolve
     dad_stick "I'm gonna hit you with my stick!"
     "He beats me viciously."
     hide dad stickangry
@@ -141,6 +141,7 @@ label day1:
     scene bg bedroombefore with fade
 
     # Sad music plays 
+    
     "I cry myself to sleep."
     # Fade to black
 

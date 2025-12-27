@@ -180,5 +180,8 @@ label day2:
     pause
     "ONEEEE CHANNNNNN!!!!"
     show sister w with runsfastatyou 
-
+    sister "i missed u gng"
+    you "yeah hi"
+    show sister smug
+    sister "you must be pretty excited to see your W imouto cunny tuff loili this hsit tuff diddy sus anime"
     return
