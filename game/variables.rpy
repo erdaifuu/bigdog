@@ -32,7 +32,7 @@ define cm2 = Character("Classmate 2")
 # Transitions
 define bigdogintimidation = ComposeTransition(hpunch, after=dissolve)
 define bigdogdissapearance = ComposeTransition(squares, before=blinds, after=irisin)
-define runsfastatyou = ComposeTransition(hpuncy, zoomin)
+define runsfastatyou = ComposeTransition(hpunch, zoomin)
 
 # Romance paths
 
