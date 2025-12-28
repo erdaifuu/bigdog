@@ -10,6 +10,7 @@ define mainloveinterest = Character("Yuri")
 define her_sister = Character("Yuri's Sister")
 define puppy = Character("Smog")
 define fourtran = Character("Ftran")
+define ll = Character("ll")
 
 # Important Side Characters
 define mom = Character("Mom")

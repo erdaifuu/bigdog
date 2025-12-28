@@ -184,4 +184,5 @@ label day2:
     you "yeah hi"
     show sister smug
     sister "you must be pretty excited to see your W imouto cunny tuff loili this hsit tuff diddy sus anime"
+    hide sister smug
     return
